@@ -1,6 +1,6 @@
 /* General Body Styles */
 body {
-    font-family: serif; /* Fuente serif para un toque clásico */
+    font-family: 'Montserrat', sans-serif; /* Nueva fuente */
     background-color: #222; /* Fondo oscuro */
     color: #DDD; /* Texto claro */
     margin: 0;
@@ -9,6 +9,17 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  
+  /* Enlaces generales para quitar el subrayado y el color azul por defecto */
+  a {
+    color: inherit; /* Hereda el color del padre */
+    text-decoration: none; /* Quita el subrayado */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subraya solo al pasar el ratón si se desea */
+  }
+  
   
   /* Header Styles */
   header {
@@ -39,12 +50,14 @@ body {
     font-size: 3em; /* Título principal más grande */
     color: #FFF;
     margin-bottom: 20px;
+    font-weight: 700; /* Negrita para los títulos */
   }
   
   h2 {
     font-size: 1.8em;
     color: #FFF;
     margin-bottom: 15px;
+    font-weight: 700; /* Negrita para los títulos */
   }
   
   p {
@@ -63,9 +76,48 @@ body {
   /* Footer Styles */
   footer {
     width: 100%;
-    padding: 20px 0;
+    padding: 40px 0; /* Más padding para el footer */
     text-align: center;
     font-size: 0.9em;
     color: #888;
     margin-top: 40px;
+    background-color: #1a1a1a; /* Un color de fondo ligeramente más oscuro para el footer */
+  }
+  
+  .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-contact p {
+    margin: 10px 0;
+    color: #DDD; /* Color más claro para el texto de contacto */
+  }
+  
+  .footer-contact a {
+    color: #4CAF50; /* Un verde vibrante para el correo, puedes ajustarlo */
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin-top: 20px; /* Espacio entre el correo y los iconos */
+    margin-bottom: 10px; /* Espacio entre los iconos y el copyright */
+  }
+  
+  .footer-social a {
+    color: #DDD; /* Color de los iconos */
+    margin: 0 15px;
+    font-size: 1.8em; /* Tamaño de los iconos */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #FFF; /* Cambia de color al pasar el ratón */
   }
