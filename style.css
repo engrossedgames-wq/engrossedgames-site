@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 /* General Body Styles */
 body {
-    font-family: 'Montserrat', sans-serif; /* Nueva fuente */
-    background-color: #222; /* Fondo oscuro */
-    color: #DDD; /* Texto claro */
-    margin: 0;
-    line-height: 1.6;
-    display: flex; /* Para centrar el contenido principal */
-    flex-direction: column;
-    align-items: center;
-  }
+  font-family: 'Montserrat', sans-serif; /* Nueva fuente */
+  background-color: #222; /* Fondo oscuro */
+  color: #DDD; /* Texto claro */
+  margin: 0;
+  line-height: 1.6;
+  display: flex; /* Para centrar el contenido principal */
+  flex-direction: column;
+  align-items: center;
+}
   
   /* Enlaces generales para quitar el subrayado y el color azul por defecto */
   a {
