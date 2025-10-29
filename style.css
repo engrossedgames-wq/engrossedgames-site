@@ -1,0 +1,71 @@
+/* General Body Styles */
+body {
+    font-family: serif; /* Fuente serif para un toque clásico */
+    background-color: #222; /* Fondo oscuro */
+    color: #DDD; /* Texto claro */
+    margin: 0;
+    line-height: 1.6;
+    display: flex; /* Para centrar el contenido principal */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header Styles */
+  header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 250px; /* Ajusta el tamaño del logo si es necesario */
+    height: auto;
+    filter: brightness(2); /* Hace el logo más brillante para que destaque en el fondo oscuro */
+  }
+  
+  /* Main Content Styles */
+  main {
+    width: 80%; /* Ancho del contenido principal */
+    max-width: 900px; /* Ancho máximo para el contenido */
+    padding: 40px 0;
+    text-align: center; /* Centra el texto en las secciones */
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 3em; /* Título principal más grande */
+    color: #FFF;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    color: #FFF;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    max-width: 700px; /* Limita el ancho del párrafo para mejor legibilidad */
+    margin: 0 auto; /* Centra los párrafos */
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #555; /* Línea divisoria sutil */
+    margin: 40px auto;
+    width: 50%; /* Ancho de las líneas divisorias */
+  }
+  
+  /* Footer Styles */
+  footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 40px;
+  }
