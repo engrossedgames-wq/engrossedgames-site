@@ -24,7 +24,7 @@
 
 /* Estilos para el logo en el banner */
 #banner .inner .logo .site-logo {
-    max-width: 150px; /* Ajusta el tamaño máximo de tu logo */
+    max-width: 100px; /* Ajusta el tamaño máximo de tu logo */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Para centrarla si es necesario */
     margin: 0 0 1.5em 0;
