@@ -18,7 +18,7 @@
 #banner .brand-title {
     font-family: 'TTSUPERMOLOTNEUE Black', sans-serif; /* Usamos el nombre que definimos arriba */
     font-weight: normal; /* O bold, si tu tipografía es así */
-    font-size: 4em; /* Ajusta el tamaño si es necesario */
+    font-size: 3em; /* Ajusta el tamaño si es necesario */
     color: #FFFFFF; /* Ajusta el color si quieres uno diferente al predeterminado */
 }
 
